@@ -7,10 +7,10 @@
 
 for (let i=0; i<100; i++){
   let a= ''
+  if (i >0) {
   i % 15 === 0 ? a+='FizzBuzz'
 : i % 5 === 0 ? a+='Buzz' 
 : i % 3 === 0 ? a+='Fizz' : a+=i
-  console.log(a)
+    console.log(a)
+  }
 }
-
-//purtroppo non sono riuscito a trovare un modo per evitare di fare uscire FizzBuzz al primo giro del ciclo.
