@@ -5,10 +5,12 @@
 */
 
 let a =' '
-for(let i=0; i<8; i++){
-  for( let y =0; y<8; y++){
-     (i+y) % 2 === 0 ? a+='#' : a+=' ' 
+for(let i = 0; i < 8; i++){
+  for( let x = 0; x < 8; x++){
+     x % 2 === 0 ? a+='#' : a+=' ' 
   }
   a += '\n'
 }
 console.log(a)
+
+//non sono riuscito a fare in modo che la riga successiva restituisca i caratteri invertiti rispetto a quella precedente
