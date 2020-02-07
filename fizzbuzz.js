@@ -6,7 +6,7 @@
 */
 
 for (let i = 0; i < 100; i++) {
-    let a = ''
+    let a = 0
     if (i > 0) {
         i % 15 === 0 ? a += 'FizzBuzz'
             : i % 5 === 0 ? a += 'Buzz'
