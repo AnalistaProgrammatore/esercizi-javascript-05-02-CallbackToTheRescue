@@ -5,12 +5,12 @@
 * (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
 */
 
-for (let i=0; i<100; i++){
-  let a= ''
-  if (i >0) {
-  i % 15 === 0 ? a+='FizzBuzz'
-: i % 5 === 0 ? a+='Buzz' 
-: i % 3 === 0 ? a+='Fizz' : a+=i
-    console.log(a)
-  }
+for (let i = 0; i < 100; i++) {
+    let a = ''
+    if (i > 0) {
+        i % 15 === 0 ? a += 'FizzBuzz'
+            : i % 5 === 0 ? a += 'Buzz'
+                : i % 3 === 0 ? a += 'Fizz' : a += i
+        console.log(a)
+    }
 }
