@@ -4,7 +4,7 @@
 * The characters should form a chessboard.
 */
 
-let a =' '
+let a = ' '
 for(let i = 0; i < 8; i++){
   for( let x = 0; x < 8; x++){
      x % 2 === 0 ? a+='#' : a+=' ' 
