@@ -3,7 +3,6 @@
 * At each position of the grid there is either a space or a "#" character. 
 * The characters should form a chessboard.
 */
-
 let a = ''
 for (b = 0; b < 4; b++) {
     for (let x = 0; x < 8; x++) {
